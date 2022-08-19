@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    max-width: 1219px;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    margin: 0;
+    padding-top: 80px;
+}
+header{
+    display: block;
+}
+#menu{
+    background: #007765;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+}
+.main-menu span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+.logo{
+    size: 180px 45px;
+}
+#logo ~ a, #logo ~ span{
+    float: right;
+    margin: 10px 3px 0 3px;
+    text-decoration: none;
+}
+#menu span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+.start-image{
+    background-image: url("/css/PiperNet is here.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.text-img1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 90px;
+}
+.second-image{
+    background-image: url("/css/We're in this together!.png");
+    background-size: cover;
+    background-position: center;
+    padding: 130px 105px;
+}
+.text-img2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ppc{
+    padding-top: 15px;
+}
+.PPC-Logo{
+    height: 115px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.ppc-text{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+#the-team{
+    background: #eeeeee;
+    padding-top: 48px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+figure{
+    text-align: center;
+    margin: 44px 86px 38px;
+    display: inline-block;
+}
+figure img{
+    height: 168px;
+    margin: 12px;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+}
+.job-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+footer{
+    height: 176px;
+    background: #333333;
+    width: 100%;
+}
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 65px;
+    width: 540px;
+    margin: auto;
+}
