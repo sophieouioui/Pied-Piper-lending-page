@@ -120,30 +120,32 @@ header{
     padding-bottom: 60px;
     width: 100%;
 }
-figure{
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.member {
     text-align: center;
-    margin: 44px 86px 38px;
-    display: inline-block;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
-figure img{
-    height: 168px;
-    margin: 12px;
-}
-.name {
+
+.member-name {
+    margin: 12px 0 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
-    line-height: 28px;
-    text-align: center;
     color: #007765;
 }
-.job-title{
+
+.member-role {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
-    text-align: center;
 }
 footer{
     height: 176px;
